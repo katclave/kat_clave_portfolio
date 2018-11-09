@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import NavBar from './components/NavBar/nav-bar.js'
 import Hero from './components/Hero/hero.js'
-import logo from './logo.svg';
+import CaseStudy from './components/CaseStudy/case-study.js'
+import DesignProcess from './components/DesignProcess/design-process.js'
+import CallToAction from './components/CallToAction/call-to-action.js'
+
+//import logo from './logo.svg';
 
 import './App.css';
 
@@ -24,6 +28,9 @@ class App extends Component {
       <div>
         <NavBar />
         <Hero />
+        <CaseStudy />
+        <DesignProcess />
+        <CallToAction />
       </div>
     );
   }

@@ -1,7 +1,10 @@
 const style = {
+  hero: {
+    marginBottom: '20px',
+    marginLeft: '129px',
+  },
   header: {
     marginTop: '108px',
-    marginLeft: '129px',
     marginRight: '304px',
     fontFamily: 'Helvetica',
     fontWeight: '800',
@@ -14,7 +17,6 @@ const style = {
     display: 'flex',
     flexDirection: 'row',
     marginTop: '43px',
-    marginLeft: '129px',
     color: '#A0A0A0'
   },
   locationPlace: {
@@ -33,7 +35,6 @@ const style = {
     display: 'flex',
     flexDirection: 'row',
     marginTop: '94px',
-    marginLeft: '129px',
     width: '174px',
     height: '46px',
     background: '#494949'

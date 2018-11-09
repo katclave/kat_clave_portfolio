@@ -6,7 +6,7 @@ class Hero extends Component {
   //TODO escape char in LETS
   render() {
     return (
-      <div>
+      <div style={style.hero}>
         <div style={style.header}>
           I’m a Product Designer
           focused on solution driven and interactive experiences

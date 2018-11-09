@@ -1,8 +1,20 @@
 import React, { Component } from 'react';
 import style from './nav-bar.jss';
-//import Menu from '@material-ui/icons/Menu.js';
+import ReactSVG from 'react-svg'
+import Menu from '@material-ui/icons/Menu.js';
+import logo from './logo.svg'
 
 class NavBar extends Component {
+  constructor(props){
+    super(props)
+    this.state={
+      hamburgerOpen: false
+    }
+  }
+
+  openHamburger = () => {
+
+  }
 
   navOrHamburger = () => {
     if(window.innerWidth > 600) {
@@ -19,7 +31,9 @@ class NavBar extends Component {
     } else {
       return (
         <div style={style.hamburger}>
-          X
+          <Menu
+            onClick={this.openHamburger}
+          />
         </div>
       )
     }
@@ -32,8 +46,8 @@ class NavBar extends Component {
     return (
       <div style={style.navBarBody}>
         <div style={style.nameAndLogo}>
-          <div style={style.logo}>
-            X
+          <div style={style.logoContainer}>
+            <img src={logo} style={style.logo}/>
           </div>
           <div style={
             mobile

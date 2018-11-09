@@ -15,17 +15,19 @@ var style = {
     flexDirection: 'row'
   },
   logo: {
-    height: '61vh',
-    width: '54px',
-    marginRight: '28px',
-    marginLeft: '44px',
-    color: 'red'
+    height: '4vh',
+    marginTop: '1vh',
+    marginRight: '20px',
+  },
+  logoContainer: {
+    marginTop: '1vh',
+    marginLeft: '20px',
   },
   name: {
     fontFamily: 'Helvetica Neue',
     fontWeight: '700',
-    fontSize: '24px',
-    marginTop: '1vh',
+    fontSize: '30px',
+    marginTop: '2vh',
     color: '#494949'
   },
   mobileName: {
@@ -34,26 +36,26 @@ var style = {
     fontSize: '24px',
     marginTop: '1vh',
     color: '#494949',
-    color: 'blue'
   },
   about: {
     fontFamily: 'Helvetica Neue',
     fontWeight: '700',
     fontSize: '18px',
-    marginTop: '2vh',
+    marginTop: '3vh',
     color: '#6D6D6D'
   },
   resume: {
     fontFamily: 'Helvetica Neue',
     fontWeight: '700',
     fontSize: '18px',
-    marginTop: '2vh',
+    marginTop: '3vh',
     marginLeft: '50px',
     marginRight: '70px',
     color: '#6D6D6D',
   },
   hamburger: {
-    color: 'red'
+    marginTop: '2vh',
+    marginRight: '28px'
   }
 }
 
