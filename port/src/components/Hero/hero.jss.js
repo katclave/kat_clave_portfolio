@@ -2,14 +2,16 @@ const style = {
   hero: {
     marginBottom: '20px',
     marginLeft: '129px',
+    display: 'flex',
+    flexDirection: 'row',
   },
   header: {
     marginTop: '108px',
-    marginRight: '304px',
+    marginRight: '500px',
     fontFamily: 'Helvetica',
-    fontWeight: '800',
-    fontSize: '60px',
-    lineHeight: '58px',
+    fontWeight: '900',
+    fontSize: '90px',
+    lineHeight: '95px',
     align: 'Left',
     color: '#494949'
   },
@@ -22,40 +24,46 @@ const style = {
   locationPlace: {
     fontFamily: 'Helvetica',
     fontStyle: 'Light',
-    fontSize: '36px',
+    fontSize: '50px',
     lineHeight: '47px',
     align: 'Center',
     paragraphSpacing: '5px',
-  },
-  locationIcon: {
-    fontSize: '40px', //TODO placeholder
-    color: 'red' //TODO placeholder
   },
   connectButton: {
     display: 'flex',
     flexDirection: 'row',
     marginTop: '94px',
-    width: '174px',
-    height: '46px',
+    width: '260px',
+    height: '60px',
     background: '#494949'
   },
   connectText: {
-    marginTop: '16px',
-    marginLeft: '21px',
+    marginTop: '22px',
+    marginLeft: '30px',
     fontWeight: '800',
     fontFamily: 'Helvetica',
     fontStyle: 'Bold',
-    fontSize: '14px',
+    fontSize: '23px',
     lineHeight: '17px',
     align: 'Left',
     paragraphSpacing: '5px',
     fill: 'Solid',
     color: '#FFFFFF'
   },
-  connectIcon: {
-    marginLeft: '9px',
-    marginTop: '16px',
+  arrowIcon: {
+    height: '15px',
+    marginTop: '23px',
+    marginLeft: '10px',
     color: '#45DEFF'
+  // },
+  // logo: {
+  //   marginLeft: '500px',
+  //   opacity: '0.2'
+  },
+  locationIcon: {
+    height: '30px',
+    marginRight: '7px',
+    marginTop: '7px'
   }
 }
 

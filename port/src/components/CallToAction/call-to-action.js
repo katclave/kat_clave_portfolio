@@ -8,14 +8,14 @@ class CallToAction extends Component {
         <div style={style.callToAction}>
           <div style={style.bar}></div>
           <div style={style.bigHeader}>
-            Big Header
+            Let's share ideas
           </div>
           <div style={style.smallHeader}>
-            Small Header
+            Feel free to reach me anytime
           </div>
           <div style={style.button}>
             <div style={style.buttonText}>
-              Connect
+              SEND AN EMAIL
             </div>
           </div>
         </div>

@@ -15,19 +15,20 @@ var style = {
     flexDirection: 'row'
   },
   logo: {
-    height: '4vh',
+    height: '6vh',
     marginTop: '1vh',
-    marginRight: '20px',
   },
   logoContainer: {
-    marginTop: '1vh',
-    marginLeft: '20px',
+    marginLeft: '40px',
+
   },
   name: {
+    marginLeft: '15px',
     fontFamily: 'Helvetica Neue',
     fontWeight: '700',
     fontSize: '30px',
     marginTop: '2vh',
+    letterSpacing: '1px',
     color: '#494949'
   },
   mobileName: {
@@ -52,6 +53,7 @@ var style = {
     marginLeft: '50px',
     marginRight: '70px',
     color: '#6D6D6D',
+    textDecoration: 'none',
   },
   hamburger: {
     marginTop: '2vh',

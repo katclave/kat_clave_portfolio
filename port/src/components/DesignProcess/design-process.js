@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import style from './design-process.jss';
-import DesignProcessImage from './design-process-image-web.png';
+import DesignProcessImage from './designProcess1.png';
 
 class DesignProcess extends Component {
   render() {
@@ -10,18 +10,23 @@ class DesignProcess extends Component {
         <div style={style.top}>
           <div style={style.headers}>
             <div style={style.smallHeader}>
-              The Approach
+              THE APPROACH
             </div>
             <div style={style.bigHeader}>
-              Design Process
+              DESIGN PROCESS
             </div>
           </div>
           <div style={style.paragraph}>
-            I approach design challenges by first understanding the problem we want to solve. I define the most efficient solution and take steps to craft the product. Throughout the process I test the efficiency of my design decisions and reiterate where ever needed until a polished product solves the problem.
+          I approach the design process with cognitive empathy and a deep attentiveness to user input. Are we asking the right questions? Or identifying the correct problem? Our users will always help determine the right direction, and collaborating with them will guide us to an efficient product that works for them.
+
+
+          I ground myself in understanding and gaining perspective and throughouly embracing each stage of the design process with an open mind to change and re-iteration. I love the challenge of implementing results that is represented through visual unity and design.
+          Although no two projects are the same, I follow a very straightforward process that leads me to effective solutions.
+
           </div>
         </div>
-        <div style={style.bottom}>
-          <img src={DesignProcessImage}></img>
+        <div>
+          <img src={DesignProcessImage} style={style.image}/>
         </div>
       </div>
     );

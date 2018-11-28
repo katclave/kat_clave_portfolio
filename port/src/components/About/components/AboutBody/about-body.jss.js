@@ -1,13 +1,4 @@
 const style = {
-  caseStudy: {
-    marginTop: '150px',
-    marginLeft: '129px',
-    marginBottom: '20px'
-  },
-  bar: {
-    borderTop: '4px #45DEFF solid',
-    width: '160px'
-  },
   smallHeader: {
     marginTop: '25px',
     fontFamily: 'Helvetica',
@@ -21,6 +12,7 @@ const style = {
   },
   bigHeader: {
     marginTop: '15px',
+    marginBottom: '30px',
     fontFamily: 'Helvetica',
     fontWeight: '900',
     fontSize: '40px',
@@ -30,10 +22,26 @@ const style = {
     fill: 'Solid',
     color: '#494949'
   },
-  image: {
-    height: '78vh',
-    marginTop: '50px'
-  }
+  bar: {
+    borderTop: '4px #45DEFF solid',
+    width: '160px'
+  },
+  paragraph: {
+    color: '#6D6D6D',
+    lineHeight: '40px',
+    fontSize: '20px',
+    width: '1100px',
+    marginBottom: '20px',
+
+  },
+  // paragraphBold: {
+  //   fontWeight: '900',
+  //   color: '#6D6D6D',
+  //   lineHeight: '40px',
+  //   fontSize: '20px',
+  //   width: '1100px',
+  //   marginRight: '119px',
+  // }
 }
 
 export default style

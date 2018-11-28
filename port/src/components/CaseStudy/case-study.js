@@ -8,10 +8,10 @@ class CaseStudy extends Component {
       <div style={style.caseStudy}>
         <div style={style.bar}></div>
         <div style={style.smallHeader}>
-          Case Study
+          CASE STUDY
         </div>
         <div style={style.bigHeader}>
-          Box Office
+          BOX OFFICE
         </div>
         <div>
           <img src={CaseStudyImage} style={style.image}/>

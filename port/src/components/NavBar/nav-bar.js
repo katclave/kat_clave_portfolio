@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import style from './nav-bar.jss';
 import ReactSVG from 'react-svg'
 import Menu from '@material-ui/icons/Menu.js';
-import logo from './logo.svg'
+import logo from '../../logo/logo.svg';
+import pdf from '../../resume/KatClaveResume.pdf'
 
 class NavBar extends Component {
   constructor(props){
@@ -13,18 +15,39 @@ class NavBar extends Component {
   }
 
   openHamburger = () => {
+    console.log('Open Hamburger')
+  }
 
+  openResume = () => {
+
+  }
+
+  handleHeroAbout = () => {
+    if(this.props.aboutClicked === true){
+      this.props.handleAboutClicked(false)
+    } else {
+      this.props.handleAboutClicked(true)
+    }
   }
 
   navOrHamburger = () => {
     if(window.innerWidth > 600) {
       return (
         <div style={style.aboutAndResume}>
-          <div style={style.about}>
-            About
+          <div
+            style={style.about}
+            onClick={this.handleHeroAbout}
+            >
+            {this.props.aboutClicked
+              ? <div> Home </div>
+              : <div> About </div>
+            }
           </div>
-          <div style={style.resume}>
-            Resume
+          <div
+            onClick={this.openResume}
+            style={style.resume}
+            >
+              <a href = {pdf} style={style.resume} target = "_blank">Resume</a>
           </div>
         </div>
       )

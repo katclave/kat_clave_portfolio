@@ -8,11 +8,14 @@ const style = {
     marginLeft: '129px',
   },
   bar: {
-    borderTop: '5px solid blue'
+    borderTop: '4px #45DEFF solid',
+    width: '160px'
   },
   bigHeader: {
+    marginTop: '15px',
+    marginBottom: '10px',
     fontFamily: 'Helvetica',
-    fontStyle: 'Bold',
+    fontWeight: '900',
     fontSize: '48px',
     lineHeight: '58px',
     align: 'Center',
@@ -21,8 +24,9 @@ const style = {
     color: '#E5E5E5'
   },
   smallHeader: {
+    marginBottom: '50px',
     fontFamily:'Helvetica',
-    fontStyle:'Bold',
+    fontWeight: '900',
     fontSize:'24px',
     lineHeight:'29px',
     align:'Center',
@@ -31,13 +35,21 @@ const style = {
     color: '#E5E5E5'
   },
   button:{
-    height: '46px',
-    width: '174px',
-    background: 'white',
-    textAlign: 'center'
+    width: '260px',
+    height: '60px',
+    background: 'white'
   },
   buttonText: {
-    marginTop: '10px'
+    paddingTop: '15px',
+    marginTop: '22px',
+    marginLeft: '30px',
+    fontWeight: '800',
+    fontFamily: 'Helvetica',
+    fontStyle: 'Bold',
+    fontSize: '23px',
+    align: 'Left',
+    fill: 'Solid',
+    color: '#494949'
   }
 }
 
