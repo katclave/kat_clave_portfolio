@@ -33,8 +33,9 @@ class Hero extends Component {
       <div style={style.hero}>
         <div>
           <div style={style.header}>
-            I’m a Product Designer
-            focused on solution driven and interactive experiences
+            I’m a Product Designer<br></br>
+            focused on solution driven <br></br>
+            and interactive experiences
           </div>
           <div style={style.location}>
 

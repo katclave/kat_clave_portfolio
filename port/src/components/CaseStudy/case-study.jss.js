@@ -2,7 +2,7 @@ const style = {
   caseStudy: {
     marginTop: '150px',
     marginLeft: '129px',
-    marginBottom: '20px'
+    marginBottom: '20px',
   },
   bar: {
     borderTop: '4px #45DEFF solid',
@@ -32,7 +32,8 @@ const style = {
   },
   image: {
     height: '78vh',
-    marginTop: '50px'
+    marginTop: '50px',
+    cursor: 'pointer',
   }
 }
 

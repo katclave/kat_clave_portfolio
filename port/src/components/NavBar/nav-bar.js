@@ -28,6 +28,7 @@ class NavBar extends Component {
     } else {
       this.props.handleAboutClicked(true)
     }
+    this.props.handleCaseStudyClicked(false)
   }
 
   navOrHamburger = () => {

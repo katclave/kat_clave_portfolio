@@ -30,7 +30,7 @@ const style = {
     color: '#6D6D6D',
     lineHeight: '40px',
     fontSize: '20px',
-    width: '1100px',
+    width: '800px',
     marginBottom: '20px',
 
   },

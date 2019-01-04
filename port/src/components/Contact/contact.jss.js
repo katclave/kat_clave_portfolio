@@ -45,11 +45,11 @@ const style = {
     marginRight: '40px'
   },
   contactHeadline: {
-    marginTop: '30px',
+    marginTop: '40px',
     marginBottom: '20px',
     fontFamily: 'Helvetica',
     fontStyle: 'Bold',
-    fontSize: '24px',
+    fontSize: '26px',
     lineHeight: '29px',
     align: 'Left',
     paragraphSpacing: '5px',
@@ -60,7 +60,7 @@ const style = {
     marginBottom: '20px',
     fontFamily: 'Helvetica',
     fontStyle: 'Regular',
-    fontSize: '24px',
+    fontSize: '26px',
     lineHeight: '29px',
     align: 'Left',
     paragraphSpacing: '5px',

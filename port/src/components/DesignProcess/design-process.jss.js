@@ -72,9 +72,9 @@ const style = {
 
   },
   image: {
-    height: '20vh',
+    height: '15vh',
     marginTop: '150px',
-    marginLeft: '0vh',
+    marginLeft: '56vh',
     marginBottom: '10vh'
   }
  }

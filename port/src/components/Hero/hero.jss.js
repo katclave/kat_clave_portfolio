@@ -1,17 +1,18 @@
 const style = {
   hero: {
+    marginTop: '80px',
     marginBottom: '20px',
     marginLeft: '129px',
     display: 'flex',
     flexDirection: 'row',
   },
   header: {
-    marginTop: '108px',
+    marginTop: '20px',
     marginRight: '500px',
     fontFamily: 'Helvetica',
     fontWeight: '900',
-    fontSize: '90px',
-    lineHeight: '95px',
+    fontSize: '80px',
+    lineHeight: '85px',
     align: 'Left',
     color: '#494949'
   },

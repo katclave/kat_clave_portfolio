@@ -1,10 +1,13 @@
 var style = {
   navBarBody: {
+    backgroundColor: 'white',
     display: 'flex',
     flexDirection: 'row',
     height: '8vh',
     justifyContent: 'space-between',
-    boxShadow: '0 4px 2px 1px rgba(0, 0, 0, 0.1)'
+    // boxShadow: '0 4px 2px 1px rgba(0, 0, 0, 0.1)',
+    top: '0', /* Position the navbar at the top of the page */
+    width: '100vw'
   },
   nameAndLogo: {
     display: 'flex',
@@ -15,11 +18,12 @@ var style = {
     flexDirection: 'row'
   },
   logo: {
-    height: '6vh',
+    height: '3vh',
     marginTop: '1vh',
   },
   logoContainer: {
-    marginLeft: '40px',
+    marginLeft: '80px',
+    marginTop: '13px'
 
   },
   name: {
@@ -53,7 +57,7 @@ var style = {
     marginLeft: '50px',
     marginRight: '70px',
     color: '#6D6D6D',
-    textDecoration: 'none',
+    textDecoration: 'none'
   },
   hamburger: {
     marginTop: '2vh',
